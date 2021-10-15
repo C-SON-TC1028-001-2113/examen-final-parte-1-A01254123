@@ -6,7 +6,7 @@ def main():
     else:
         if int(num)<0:
             num=str(num)[::-1]
-            num=f"-{str(n0um)[:-1]}"
+            num=f"-{str(num)[:-1]}"
         else:
             num=str(num)[::-1]
         print(num)
