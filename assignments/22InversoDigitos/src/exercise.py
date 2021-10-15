@@ -5,7 +5,7 @@ def main():
         print ('Too long')
     else:
         if int(num)<0:
-            num=str(num)[0::-1]
+            num=str(num)[::-1]
             num=f"-{str(num)[:-1]}"
         else:
             num=str(num)[::-1]
